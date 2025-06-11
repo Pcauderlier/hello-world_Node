@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  api-node:
+    build: .
+    container_name: api-node-test
+    ports:
+      - "3002:3001"
+    restart: unless-stopped
