@@ -10,7 +10,7 @@ app.use((req, res, next) => {
   });
 
 app.use((req,res,next) => {
-    res.status(200).json({message : "hello world"})
+    res.status(200).json({message : "hello worlds"})
 })
 
 const normalizePort = val => {
